@@ -7,8 +7,7 @@ function rewardsService(options) {
     portfolio = options.portfolio;
     customerAccountNumber = options.customerAccountNumber;
     eligibilityServiceOutput = constants.eligibilityServiceOutput;
-    //  { customerAccountNumber, portfolio, eligibilityService } = options;
-// ...amazing code
+
        eligibleRewards = [];
     try {
         eligibilityResponse = eligibilityService(customerAccountNumber)

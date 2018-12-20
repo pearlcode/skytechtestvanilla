@@ -30,7 +30,6 @@ describe('rewards service', function () {
 
         }
 
-
     });
 
     it('returns no rewards with non-elibible account', function () {
@@ -39,10 +38,9 @@ describe('rewards service', function () {
         portfolios = constants.portfolios;
         accountNumber = 2;
         for (var i = 0; i < 5; i++) {
-            expect(rewardTest(accountNumber, i)).toEqual({data:[]});
+            expect(rewardTest(accountNumber, i)).toEqual({data: []});
 
         }
-
 
     });
 
@@ -52,7 +50,7 @@ describe('rewards service', function () {
         portfolios = constants.portfolios;
         accountNumber = 3;
         for (var i = 0; i < 5; i++) {
-            expect(rewardTest(accountNumber, i)).toEqual({data:[]});
+            expect(rewardTest(accountNumber, i)).toEqual({data: []});
 
         }
 
